@@ -1,5 +1,11 @@
-JUCE / C++ implemention of this version of a Schroeder Reverbator: https://ccrma.stanford.edu/~jos/pasp/Schroeder_Reverberators.html
+This is a JUCE framework C++ implementation of various DSP algorithms for a Schroeder Reverbator, flanger, general comb filter and other filters. Anyone familiar with JUCE can turn on/off those different components and compile fully functioning plugins (see Disclaimer below).
 
-The reverbator has an additional, adjustable slider, which controls the reverb time. It does this by adjusting the feedback coefficients/gain using the formula below.
+The solution includes a unit test project using GoogleTest.
 
-![ReverbAdjustment](https://user-images.githubusercontent.com/119821069/229393575-2c7a68cd-8b6f-4479-8360-795abfe7df5a.png)
+The Schroeder Reverbator implements this approach: https://ccrma.stanford.edu/~jos/pasp/Schroeder_Reverberators.html
+
+The flanger and general comb filter are derived from the book <a href="https://www.amazon.com/DAFX-Digital-Audio-Effects-Z%C3%B6-ebook/dp/B005HF2HFE/ref=sr_1_5?crid=3O1NF7P74ZSAD&keywords=dafx+digital+audio+effects&qid=1686806010&sprefix=dafx%2Caps%2C271&sr=8-5">DAFX: Digital Audio Effects</a> 2nd Edition, by Zölzer, Izer ).
+
+Hat tip to https://github.com/JanWilczek
+
+(<i>Disclaimer</i>: the GUI is rather spartan, to say the least. The purpose of this project is to purely write a clean and efficient implementation of the algorithms in C++, not to have a finished product)
