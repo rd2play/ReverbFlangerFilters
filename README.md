@@ -1,6 +1,6 @@
 This is a JUCE framework C++ implementation of various DSP algorithms for a Schroeder Reverbator, flanger, general comb filter and other filters. Anyone familiar with JUCE can turn on/off those different components and compile fully functioning plugins (see Disclaimer below).
 
-The solution includes a unit test project using GoogleTest.
+The solution includes a unit test project using GoogleTest for testing several components.
 
 The Schroeder Reverbator implements this approach: https://ccrma.stanford.edu/~jos/pasp/Schroeder_Reverberators.html
 
@@ -8,4 +8,4 @@ The flanger and general comb filter are derived from the book <a href="https://w
 
 Hat tip to https://github.com/JanWilczek
 
-(<i>Disclaimer</i>: the GUI is rather spartan, to say the least. The purpose of this project is to purely write a clean and efficient implementation of the algorithms in C++, not to have a finished product)
+(<i>Disclaimer</i>: the GUI is rather spartan, to say the least. The purpose of this project is to purely write a clean and efficient implementation of the algorithms in C++, not to have a finished product. However, a )
