@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="bzkL6B" name="CombFilter" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              cppLanguageStandard="latest">
+  <MAINGROUP id="RO3hfy" name="CombFilter">
+    <GROUP id="{A3A8C47A-6BDF-CFA8-B26C-34975570092C}" name="Source">
+      <FILE id="ueWngO" name="FractionalDelayLine.cpp" compile="1" resource="0"
+            file="Source/FractionalDelayLine.cpp"/>
+      <FILE id="PHHcmi" name="FractionalDelayLine.h" compile="0" resource="0"
+            file="Source/FractionalDelayLine.h"/>
+      <FILE id="ZmWeTa" name="LFO.cpp" compile="1" resource="0" file="Source/LFO.cpp"/>
+      <FILE id="cHQ490" name="LFO.h" compile="0" resource="0" file="Source/LFO.h"/>
+      <FILE id="Z9eCXS" name="Flanger.cpp" compile="1" resource="0" file="Source/Flanger.cpp"/>
+      <FILE id="toEbDs" name="Flanger.h" compile="0" resource="0" file="Source/Flanger.h"/>
+      <FILE id="vOhEtv" name="SchroederReverb.h" compile="0" resource="0"
+            file="Source/SchroederReverb.h"/>
+      <FILE id="VpsdpG" name="SchroederReverb.cpp" compile="1" resource="0"
+            file="Source/SchroederReverb.cpp"/>
+      <FILE id="ioAYoB" name="GeneralCombFilter.h" compile="0" resource="0"
+            file="Source/GeneralCombFilter.h"/>
+      <FILE id="n0NGdG" name="GeneralCombFilter.cpp" compile="1" resource="0"
+            file="Source/GeneralCombFilter.cpp"/>
+      <FILE id="g9K1Eu" name="FeedBackFilter.cpp" compile="1" resource="0"
+            file="Source/FeedBackFilter.cpp"/>
+      <FILE id="vpuQph" name="FeedBackFilter.h" compile="0" resource="0"
+            file="Source/FeedBackFilter.h"/>
+      <FILE id="MsTykg" name="DelayLine.h" compile="0" resource="0" file="Source/DelayLine.h"/>
+      <FILE id="t2yxcJ" name="DelayLine.cpp" compile="1" resource="0" file="Source/DelayLine.cpp"/>
+      <FILE id="hiiTqU" name="FeedForwardFilter.cpp" compile="1" resource="0"
+            file="Source/FeedForwardFilter.cpp"/>
+      <FILE id="GdfSWK" name="FeedForwardFilter.h" compile="0" resource="0"
+            file="Source/FeedForwardFilter.h"/>
+      <FILE id="wRwqb5" name="CombFilterEffect.cpp" compile="1" resource="0"
+            file="Source/CombFilterEffect.cpp"/>
+      <FILE id="APRZLZ" name="CombFilterEffect.h" compile="0" resource="0"
+            file="Source/CombFilterEffect.h"/>
+      <FILE id="SCI5oU" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="ghj5aN" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="pJTiiC" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="mHFNpQ" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="CombFilter"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="CombFilter"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../DSP/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../DSP/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../DSP/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../DSP/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../DSP/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../DSP/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../DSP/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../DSP/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../DSP/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../DSP/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../DSP/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../DSP/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>

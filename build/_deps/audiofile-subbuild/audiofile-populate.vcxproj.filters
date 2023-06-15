@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\27d75f90425f0daa52b214682f12f82e\audiofile-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\27d75f90425f0daa52b214682f12f82e\audiofile-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\27d75f90425f0daa52b214682f12f82e\audiofile-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\27d75f90425f0daa52b214682f12f82e\audiofile-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\27d75f90425f0daa52b214682f12f82e\audiofile-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\27d75f90425f0daa52b214682f12f82e\audiofile-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\27d75f90425f0daa52b214682f12f82e\audiofile-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\27d75f90425f0daa52b214682f12f82e\audiofile-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\749cbf7301e1d882ba44e598fb590c6d\audiofile-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\4f93303444a729277316088a68c18ad3\audiofile-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\audiofile-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4F9510FA-F616-3EED-AD48-C7BD922BB9B3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

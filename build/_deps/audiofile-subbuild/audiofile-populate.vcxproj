@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4611ACC9-3A53-3145-AF7E-BF798F24680E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>audiofile-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\27d75f90425f0daa52b214682f12f82e\audiofile-populate-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'audiofile-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/audiofile-populate-prefix/tmp/audiofile-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/audiofile-populate-prefix/src/audiofile-populate-stamp/Debug/audiofile-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\27d75f90425f0daa52b214682f12f82e\audiofile-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'audiofile-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\JUCEProjects\CombFilter\libs
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/audiofile-populate-prefix/tmp/audiofile-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/audiofile-populate-prefix/src/audiofile-populate-stamp/Debug/audiofile-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\audiofile-populate-gitinfo.txt;C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\27d75f90425f0daa52b214682f12f82e\audiofile-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'audiofile-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\JUCEProjects\CombFilter\libs\audiofile
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/audiofile-populate-prefix/tmp/audiofile-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\27d75f90425f0daa52b214682f12f82e\audiofile-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'audiofile-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/audiofile-populate-prefix/src/audiofile-populate-stamp/Debug/audiofile-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\27d75f90425f0daa52b214682f12f82e\audiofile-populate-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'audiofile-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\JUCEProjects\CombFilter\build\_deps\audiofile-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/audiofile-populate-prefix/src/audiofile-populate-stamp/Debug/audiofile-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\tmp\audiofile-populate-cfgcmd.txt;C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\27d75f90425f0daa52b214682f12f82e\audiofile-populate-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'audiofile-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\JUCEProjects\CombFilter\build\_deps\audiofile-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/audiofile-populate-prefix/src/audiofile-populate-stamp/Debug/audiofile-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\27d75f90425f0daa52b214682f12f82e\audiofile-populate-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'audiofile-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\JUCEProjects\CombFilter\build\_deps\audiofile-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/audiofile-populate-prefix/src/audiofile-populate-stamp/Debug/audiofile-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\27d75f90425f0daa52b214682f12f82e\audiofile-populate-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'audiofile-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\JUCEProjects\CombFilter\build\_deps\audiofile-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/audiofile-populate-prefix/src/audiofile-populate-stamp/Debug/audiofile-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\749cbf7301e1d882ba44e598fb590c6d\audiofile-populate-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'audiofile-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/CMakeFiles/Debug/audiofile-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/audiofile-populate-prefix/src/audiofile-populate-stamp/Debug/audiofile-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-install;C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-mkdir;C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-download;C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-update;C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-patch;C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-configure;C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-build;C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\src\audiofile-populate-stamp\Debug\audiofile-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\Debug\audiofile-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\4f93303444a729277316088a68c18ad3\audiofile-populate.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\Debug\audiofile-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\audiofile-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild -BC:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild --check-stamp-file C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\audiofile-populate-prefix\tmp\audiofile-populate-mkdirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\CMakeFiles\audiofile-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\JUCEProjects\CombFilter\build\_deps\audiofile-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{30225905-B49F-3BFC-99E2-19D158360476}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/CMakeFiles/audiofile-populate"
+		},
+		{
+			"file" : "C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/CMakeFiles/4f93303444a729277316088a68c18ad3/audiofile-populate.rule"
+		},
+		{
+			"file" : "C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/CMakeFiles/749cbf7301e1d882ba44e598fb590c6d/audiofile-populate-complete.rule"
+		},
+		{
+			"file" : "C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/CMakeFiles/27d75f90425f0daa52b214682f12f82e/audiofile-populate-build.rule"
+		},
+		{
+			"file" : "C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/CMakeFiles/27d75f90425f0daa52b214682f12f82e/audiofile-populate-configure.rule"
+		},
+		{
+			"file" : "C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/CMakeFiles/27d75f90425f0daa52b214682f12f82e/audiofile-populate-download.rule"
+		},
+		{
+			"file" : "C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/CMakeFiles/27d75f90425f0daa52b214682f12f82e/audiofile-populate-install.rule"
+		},
+		{
+			"file" : "C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/CMakeFiles/27d75f90425f0daa52b214682f12f82e/audiofile-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/CMakeFiles/27d75f90425f0daa52b214682f12f82e/audiofile-populate-patch.rule"
+		},
+		{
+			"file" : "C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/CMakeFiles/27d75f90425f0daa52b214682f12f82e/audiofile-populate-test.rule"
+		},
+		{
+			"file" : "C:/JUCEProjects/CombFilter/build/_deps/audiofile-subbuild/CMakeFiles/27d75f90425f0daa52b214682f12f82e/audiofile-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"audiofile-populate"
+		],
+		"name" : "audiofile-populate"
+	}
+}
