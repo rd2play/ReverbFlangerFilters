@@ -1,4 +1,4 @@
-This is a JUCE framework C++ implementation of various DSP algorithms for a Schroeder Reverbator, flanger, general comb filter and other filters. Anyone familiar with JUCE can turn on/off those different components and compile fully functioning plugins (see Disclaimer below).
+This is a JUCE framework C++ implementation of various DSP algorithms for a Schroeder Reverbator, flanger, general comb filter and other filters. Anyone familiar with JUCE can turn on/off those different components.
 
 The solution includes a unit test project using GoogleTest for testing several components.
 
