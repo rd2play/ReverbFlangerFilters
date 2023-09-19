@@ -8,4 +8,4 @@ The flanger and filters are derived from the book <a href="https://www.amazon.co
 
 Hat tip to https://github.com/JanWilczek
 
-(<i>Disclaimer</i>: the GUI is rather spartan, to say the least. The purpose of this project is to purely write a clean and efficient implementation of the algorithms in C++, not to have a finished product. However, a )
+(<i>Disclaimer</i>: the GUI is rather spartan, to say the least. The purpose of this project is to purely write a clean and efficient implementation of the algorithms in C++, not to have a finished plug in.
